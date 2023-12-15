@@ -1,0 +1,19 @@
+@use "variables" as v;
+@use "mixins" as m;
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: v.$primary-font;
+}
+
+.btn{
+    border:none;
+    padding: 5px 10px;
+    text-align: center;
+    background-color: v.$color2;
+    @include m.border-radius(20px)
+}
+

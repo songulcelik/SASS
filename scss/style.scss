@@ -1,0 +1,11 @@
+
+@use "common";
+@use "weather-card";
+
+
+
+
+
+
+
+// stiller parcalanarak farkli dosyalara alinmasi islemine moduler yapi denir. _ bulunmayan dosyalarin css dosyalari olusturuluyor. css’i olusturulmasini istemedigimiz dosylari use ile import ederiz. Variable tanimli module lerde as keywodu ile module takma isim verilir. Bu isimle icerisindeki degiskenlere ulasilir.
